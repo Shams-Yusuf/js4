@@ -1,0 +1,50 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.big {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://teletype.in/files/51/d2/51d257e5-d812-456a-8cc3-9d1dabec88a1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.title {
+  position: absolute;
+  bottom: 0;
+  font-size: 30px;
+  padding: 75px 20px;
+  width: 100%;
+  background-color: rgba(240, 248, 255, 0.366);
+  opacity: 5;
+  color: black;
+  font-size: 33px;
+}
+.little {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.little-items {
+  width: 300px;
+  padding: 20px;
+}
+img {
+  width: 100%;
+}
+#big img {
+  width: 800px;
+  height: 100%;
+}
+.little-img img {
+  width: 100%;
+}
+.active {
+  background-color: rgba(0, 116, 249, 0.41);
+}
